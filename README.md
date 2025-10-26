@@ -113,13 +113,10 @@ Some notebooks save artifacts to results/
 🛠 Common Issues
 
 OpenCV SIFT unavailable:
-
 pip install opencv-contrib-python
-# then use: cv2.SIFT_create()
-
+then use: cv2.SIFT_create()
 
 TensorFlow install trouble (CPU):
-
 pip install tensorflow
 # for GPU, follow TensorFlow’s official guide for your platform
 
@@ -127,16 +124,14 @@ pip install tensorflow
 SSL errors (MNIST): See “MNIST Dataset & SSL Fix” above
 
 ✅ Grading Readiness
-Modular, commented code with structured explanations
-Key outputs visualized
-Self-contained notebooks
-Test outputs can be committed for review
-📄 License
+- Modular, commented code with structured explanations
+- Key outputs visualized
+- Self-contained notebooks
+- Test outputs can be committed for review
 
-Educational use for coursework and demonstrations. Verify licenses for datasets/libraries used.
+📄 License
+- Educational use for coursework and demonstrations. Verify licenses for datasets/libraries used.
 
 🙏 Acknowledgements
 H. Singh’s “Practical Machine Learning and Image Processing”
 Libraries: NumPy, Scikit-Image, OpenCV, Scikit-Learn, TensorFlow/Keras, Matplotlib, Seaborn
-
-please organize this readme.md file in html format
