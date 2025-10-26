@@ -76,7 +76,7 @@ Temporary bypass at top of notebook:
 import ssl, os
 ssl._create_default_https_context = ssl._create_unverified_context
 os.environ['PYTHONHTTPSVERIFY'] = '0'
-
+```
 
 Manual MNIST download:
 
